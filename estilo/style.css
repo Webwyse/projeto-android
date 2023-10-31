@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+*/
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #c5ebd6;
+    --cor2: #c5ebd6;
+    --cor3: #7a8ef1;
+    --cor4: #c5ebd6;
+    --cor5: #c5ebd6;
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-android: 'Love', cursive;
+}
+
+body {
+    background-color: #eaeaea;
+   
+}
+
+main p{
+    margin: 15px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+header{
+    background-color: rgb(172, 172, 216);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header  h1 {
+    color: rgb(59, 114, 48);
+    font-family: Vogue;
+    font-weight: normal;
+
+   
+
+}
+
+nav {
+    background-color: green;
+    padding: 10px;
+
+}
+
+nav a {
+    color: white;
+    font-family: love;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;
+}
+
+nav a:hover{
+    background-color: rgb(23, 255, 212);
+    color: rgb(5, 179, 43);
+}
+
+main {
+    min-width:300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(121, 222, 187);
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+main h1 {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main h2{
+    font-family: Vogue;
+    color: #d14d30;
+    font-weight: normal;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor3), transparent)
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: rgb(0, 255, 60);
+    margin-bottom: 30px;
+    margin: 0px -20px 0px -30px -20px;
+    padding: 20px;
+    padding-bottom: 54%;
+
+    position: relative;
+}
+
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer {
+    background-color: bisque;
+    color: aquamarine;
+    text-align: center;
+    font-size: 0.8em;
+
+
+}
+
+footer a {
+    color: azure;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+footer p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
